@@ -35,7 +35,7 @@ option:not(:checked) {
 /*
 .dropdown1
 {
-color: #767578;
+
     font-family: 'Lato', sans-serif;
     
     -webkit-appearance: none;
@@ -44,7 +44,7 @@ color: #767578;
     background-image: url(../images/arrow.png);
     background-repeat: no-repeat;
     background-position: 95% 50%;
-}*/
+}
 select:focus {
     outline: none;
 }
@@ -408,6 +408,25 @@ transition: all .2s ease-in-out;
     color: #e74c3c;
     width:30px;
     height:30px;
+}
+/* Modal styles */
+.modal-title {
+    margin: 0;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+}
+.modal-yes
+{
+    margin-left: 10px;
+}
+.modal-button
+{
+    width: 47%;
+}
+.close-button
+{
+    font-weight: bold;
 }
 @media screen and (min-width: 1028px) {
     #user-empcode
